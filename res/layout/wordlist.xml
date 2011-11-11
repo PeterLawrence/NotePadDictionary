@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:paddingLeft="10dip"
+android:weightSum="1">
+    <Spinner android:layout_width="fill_parent" android:id="@+id/viewSpin" android:prompt="@layout/wordlist" android:layout_height="wrap_content">
+    </Spinner> 
+<TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:stretchColumns="1">
+      <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:text="@string/menu_skip" android:layout_width="142dp" android:id="@+id/SkipWordButton"></Button>
+        <Button android:layout_height="wrap_content" android:text="@string/menu_add" android:layout_width="142dp" android:id="@+id/AddWordButton"></Button>
+      </TableRow>
+    </TableLayout>
+
+  
+    
+</LinearLayout>

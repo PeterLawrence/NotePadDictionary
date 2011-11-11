@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_insert">Add note</string>
+    <string name="menu_revert">Revert</string>
+    <string name="menu_discard">Discard</string>
+
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>  
+
+    <string name="title_create">Create note</string>
+    <string name="title_edit">Edit note 2</string>
+	<string name="title_notes_list">Note pad 2</string>   
+	<string name="title_note">Note 2</string>  
+	<string name="title_edit_title">Note title:</string>  
+	
+	<string name="app_name">Note Pad 2</string>  
+	<string name="live_folder_name">Notes</string>
+	
+	<string name="button_ok">OK</string>  
+	
+	<string name="error_title">Error</string>
+	<string name="error_message">Error loading note</string>
+	<string name="menu_speak">speak</string>
+	<string name="menu_spellstr">spell</string>
+	<string name="menu_exit">exit</string>
+	<string name="error_dictionary_load">error loading dictionary</string>
+	<string name="button_quit">Quit</string>
+	<string name="message_nothing_to_check">Nothing to check</string>
+	<string name="message_valid_word">Valid word</string>
+	<string name="menu_recognition">Speech Input</string>
+	<string name="reached_end">Reached end of text.</string>
+	<string name="menu_skip">Skip</string>
+	<string name="menu_add">Add</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="message_are_you_sure">Are you sure?</string>
+	<string name="message_install">Install Speech APK?</string>
+	<string name="PackagedDescription">notepad with spellchecker and speech.</string>
+	<string name="menu_dict">Language</string>
+	<string name="menu_about">About</string>
+	
+</resources>
