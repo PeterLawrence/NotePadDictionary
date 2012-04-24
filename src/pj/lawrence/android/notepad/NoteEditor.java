@@ -517,17 +517,13 @@ public class NoteEditor extends Activity implements TextToSpeech.OnInitListener,
 	            } else if (mState == STATE_INSERT) {
 	                setTitle(getText(R.string.title_create));
 	            }
-	
-	            // This is a little tricky: we may be resumed after previously being
-	            // paused/stopped.  We want to put the new text in the text view,
-	            // but leave the user where they were (retain the cursor position
-	            // etc).  This version of setText does that for us.
-	            String note = mCursor.getString(COLUMN_INDEX_NOTE);
-	            mText.setTextKeepState(note);
-	            
+
 	            // If we hadn't previously retrieved the original text, do so
 	            // now.  This allows the user to revert their changes.
 	            if (mOriginalContent == null) {
+		            String note = mCursor.getString(COLUMN_INDEX_NOTE);
+	            	//mText.setTextKeepState(note);
+		            mText.setText(note);
 	                mOriginalContent = note;
 	            }
 	

@@ -21,8 +21,8 @@
      to come from a domain that you own or have control over. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="pj.lawrence.android.notepad"
-    android:versionCode="1"
-      android:versionName="1.0">
+    android:versionCode="2"
+      android:versionName="1.0.1">
       
     <uses-sdk android:minSdkVersion="4" />
     
